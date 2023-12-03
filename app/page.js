@@ -3,7 +3,7 @@ import Layout from "@/components/layout";
 // import { getServerSession } from "next-auth";
 // import { Options } from "./api/auth/[...nextauth]/route";
 // import { redirect } from "next/navigation";
-export default async function MainHomePage() {
+export default  function MainHomePage() {
   // const session = await getServerSession(Options);
   // if (!session) {
   //   redirect("/login");

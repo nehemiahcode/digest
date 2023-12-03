@@ -1,7 +1,7 @@
 "use client";
 import { CiLogout } from "react-icons/ci";
 import { Avatar, Button } from "@nextui-org/react";
-import { signOut } from "next-auth/react";
+// import { signOut } from "next-auth/react";
 
 export default function Header() {
   return (
@@ -12,7 +12,7 @@ export default function Header() {
       </span>
       <div className="flex items-center gap-x-3">
         <Button
-          onClick={signOut()}
+          // onClick={signOut()}
           isIconOnly
           className="bg-white text-orange-500 font-bold cursor-pointer"
         >

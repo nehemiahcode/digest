@@ -55,7 +55,6 @@ export default function Postcards() {
 
   return (
     <section className=" w-full grid grid-cols-1 mt-7 px-5  place-items-center py-10 md:grid-cols-2 gap-10">
-
       {gestData.length === 0 && userData.length === 0 ? (
         <>
           <PostSkeleton />
@@ -104,7 +103,6 @@ export default function Postcards() {
                   <DropdownItem
                     as={NextLink}
                     href={`/editgest/${u._id}`}
-                    onClick={onOpen}
                     startContent={<CiEdit />}
                   >
                     Edit gest
@@ -158,7 +156,6 @@ export function ShareModal({ isOpen2, onOpenChange2 }) {
             className="text-sm"
           >
             <FacebookIcon size={32} />
-            
           </FacebookShareButton>
         </ModalBody>
       </ModalContent>
